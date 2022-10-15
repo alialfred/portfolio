@@ -16,65 +16,137 @@ const introdata = {
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Check out My recent Projects and Contact me for a market competitive quotation",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Abit about my self",
+    aboutme: "I have been making Web, Mobile & Desktop Apps for the past 20 Years and have Knowledge & Experience working in multiple Programming languages and Assisting Tools used to Design, Develop, Test and Automate the process. Java, JavaScript, Typescript,  php, Python, C++, C#,  R, Go, ROR, Laravel, React, Django, Node, Deno, Drupal, Flutter are the following languages and frameworks that I have worked and Successfully Delivered Projects.",
 };
 const worktimeline = [{
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
+    jobtitle: "Chief Technology Officer",
+    where: "GemuLab",
+    date: "2020 ",
 },
 {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
+    jobtitle: "Senior Software Engineer",
+    where: "JourneyXP",
+    date: "2018 ",
 },
 {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
+    jobtitle: "Freelance",
+    where: "Self-employed",
+    date: "2018 ",
 },
+{
+    jobtitle: "Senior Technical Lead",
+    where: "VAN TIBOLLI, Corp / Global Keratin",
+    date: "2017 ",
+},
+{
+    jobtitle: "Software Engineer",
+    where: "JASPER & JASPER",
+    date: "2007",
+},
+{
+    jobtitle: "Software Developer",
+    where: "PROJECTS (Pvt.) LIMITED",
+    date: "2005",
+},
+{
+    jobtitle: "COMPOSER & DESIGNER",
+    where: "IS Composing & Designers",
+    date: "2001",
+},
+
 ];
 
-const skills = [{
-    name: "Python",
-    value: 90,
-},
-{
-    name: "Djano",
-    value: 85,
-},
-{
-    name: "Javascript",
-    value: 80,
-},
-{
-    name: "React",
-    value: 60,
-},
-{
-    name: "Jquery",
-    value: 85,
-},
+const skills = [
+    {
+        name: "Java",
+        value: 100,
+    },
+    {
+        name: "Python",
+        value: 90,
+    },
+
+    {
+        name: "Djano",
+        value: 95,
+    },
+    {
+        name: "Javascript",
+        value: 98,
+    },
+    {
+        name: "Typescript",
+        value: 100,
+    },
+    {
+        name: "React",
+        value: 97,
+    },
+    {
+        name: "C++",
+        value: 94,
+    },
+    {
+        name: "R",
+        value: 94,
+    },
+    {
+        name: "Go",
+        value: 93,
+    },
+    {
+        name: "ROR",
+        value: 96,
+    },
+    {
+        name: "C#",
+        value: 90,
+    },
+    {
+        name: "Laravel",
+        value: 98,
+    },
+    {
+        name: "Node",
+        value: 90,
+    },
+    {
+        name: "Deno",
+        value: 85,
+    },
+    {
+        name: "Flutter",
+        value: 96,
+    },
+    {
+        name: "Jquery",
+        value: 95,
+    },
 ];
 
 const services = [{
     title: "UI & UX Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+
 },
 {
     title: "Mobile Apps",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+
 },
 {
-    title: "Wordpress Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Web Application",
+
 },
+{
+    title: "Desktop / Computer Application",
+
+},
+
 ];
 
 
