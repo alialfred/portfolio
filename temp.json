@@ -1,0 +1,18 @@
+{
+	"notification": {
+        "imageUrl": "...",
+		"body": "eeeeeeeali@gmail.com commented on lead data",
+		"title": "ZOA Energy"
+	},
+	"sentTime": 1688934041834,
+	"data": {
+        "leadCode" : "BA-20230609-2",
+        "leadDataId" : "2b999cab0c1e461b9a46167d7d64307e",
+        "leadId" : "55b441bd6ff34bed8a00f0e762fc9e9a",
+        "eventType" : "COMMENT"
+    },
+	"from": "598920546081",
+	"messageId": "0:1688934041843010%3889983b3889983b",
+	"ttl": 2419200,
+	"collapseKey": "com.zao"
+}

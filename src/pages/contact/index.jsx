@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+/* eslint-disable no-prototype-builtins */
+import  { useState } from "react";
+import * as emailjs from "@emailjs/browser";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
