@@ -6,7 +6,7 @@ import alisoftclub from "./assets/images/alisoftclub.png"
 const logotext = "ALI IMRAN";
 const meta = {
     title: "Ali Imran",
-    description: "I’m Ali Imran data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Ali Imran Senior Software Engineer",
 };
 
 const introdata = {
@@ -21,44 +21,60 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "Abit about my self",
-    aboutme: "I have been making Web, Mobile & Desktop Apps for the past 20 Years and have Knowledge & Experience working in multiple Programming languages and Assisting Tools used to Design, Develop, Test and Automate the process. Java, JavaScript, Typescript,  php, Python, C++, C#,  R, Go, ROR, Laravel, React, Django, Node, Deno, Drupal, Flutter are the following languages and frameworks that I have worked and Successfully Delivered Projects.",
+    title: "A bit about myself",
+    aboutme: {
+        "opening": "Experienced Senior Software Engineer with over two decades of dedicated expertise in leading and delivering high-impact software solutions. A seasoned Technical Lead who excels in guiding cross-functional teams through complex projects, ensuring timely delivery, and fostering innovation. Known for a strong technical acumen, strategic problem-solving, and a passion for continuous learning. Proven track record in architecting, developing, and optimizing software systems across diverse industries. An adaptable and collaborative professional with a commitment to driving excellence in both technology and team performance.",
+        "highlights": [
+            [ "20+ Years of Industry Experience", "Demonstrated proficiency and adaptability in software engineering, reflecting a consistent dedication to technological evolution." ],
+            [ "Technical Leadership", "Successfully led multidisciplinary teams in designing, developing, and deploying software solutions that meet business objectives and exceed customer expectations." ],
+            [ "Full Stack Expertise", "Proficient in both frontend and backend technologies, with a holistic understanding of the software development lifecycle." ],
+            [ "Strategic Problem Solver", "Known for identifying complex challenges and implementing innovative solutions, contributing to process efficiency and cost-effectiveness." ],
+            [ "Agile Advocate", "Championed Agile methodologies, fostering iterative development, continuous improvement, and effective collaboration among team members." ],
+            [ "Innovation Enthusiast", "Adept at leveraging emerging technologies to drive innovation and enhance product functionality, keeping projects at the forefront of industry trends." ],
+            [ "Mentorship and Training", "Committed to developing team members through mentorship, knowledge sharing, and targeted training initiatives." ],
+            [ "Project Management", "Proven ability to manage project timelines, resources, and stakeholder expectations to ensure on-time and on-budget delivery." ],
+            [ "Effective Communicator", "Strong communication skills, adept at conveying complex technical concepts to non-technical stakeholders." ],
+            [ "Continuous Learning", "A lifelong learner, consistently staying updated with the latest advancements in software engineering to adapt and thrive in dynamic environments." ],
+        ],
+        "closing": "Elevate your software engineering initiatives with my seasoned experience, technical prowess, and leadership acumen. Let's connect to explore how I can contribute to your team's success."
+    },
 };
-const worktimeline = [{
-    jobtitle: "Chief Technology Officer",
-    where: "GemuLab",
-    date: "2020 ",
-},
-{
-    jobtitle: "Senior Software Engineer",
-    where: "JourneyXP",
-    date: "2018 ",
-},
-{
-    jobtitle: "Freelance",
-    where: "Self-employed",
-    date: "2018 ",
-},
-{
-    jobtitle: "Senior Technical Lead",
-    where: "VAN TIBOLLI, Corp / Global Keratin",
-    date: "2017 ",
-},
-{
-    jobtitle: "Software Engineer",
-    where: "JASPER & JASPER",
-    date: "2007",
-},
-{
-    jobtitle: "Software Developer",
-    where: "PROJECTS (Pvt.) LIMITED",
-    date: "2005",
-},
-{
-    jobtitle: "COMPOSER & DESIGNER",
-    where: "IS Composing & Designers",
-    date: "2001",
-},
+const worktimeline = [
+    {
+        jobtitle: "SENIOR SOFTWARE ENGINEER / TECHNICAL LEAD",
+        where: "GemuLab",
+        date: "01/2020 – CURRENT",
+    },
+    {
+        jobtitle: "SOFTWARE ENGINEER / TECHNICAL LEAD",
+        where: "JourneyXP",
+        date: "11/2018 – 12/2019",
+    },
+    {
+        jobtitle: "SOFTWARE ENGINEER / TECHNICAL LEAD",
+        where: "Van Tibolli, corp / Global Keratin",
+        date: "10/2017 – 10/2018",
+    },
+    {
+        jobtitle: "SENIOR JAVA SOFTWARE ENGINEER",
+        where: "NetSOL Techonologies Inc",
+        date: "09/2008 – 09/2017",
+    },
+    {
+        jobtitle: "JAVA SOFTWARE ENGINEER",
+        where: "Jasper & Jasper",
+        date: "06/2007 – 08/2008",
+    },
+    {
+        jobtitle: "JAVA SOFTWARE DEVELOPER",
+        where: "Projects (Pvt.) Ltd",
+        date: "02/2005 – 05/2007",
+    },
+    {
+        jobtitle: "JAVA DEVELOPER",
+        where: "IS Composing & Designers",
+        date: "01/2001 - 01/2005",
+    },
 
 ];
 
@@ -68,84 +84,143 @@ const skills = [
         value: 100,
     },
     {
-        name: "Python",
-        value: 90,
-    },
-
-    {
-        name: "Djano",
+        name: "Spring Boot",
         value: 95,
     },
     {
-        name: "Javascript",
+        name: "Quarkus",
         value: 98,
     },
     {
-        name: "Typescript",
+        name: "Java Swing",
         value: 100,
     },
     {
-        name: "React",
-        value: 97,
+        name: "JavaFX 2",
+        value: 80,
+    },
+    // {
+    //     name: "Python",
+    //     value: 90,
+    // },
+    // {
+    //     name: "Djano",
+    //     value: 95,
+    // },
+    {
+        name: "Javascript",
+        value: 100,
     },
     {
-        name: "C++",
-        value: 94,
+        name: "Typescript",
+        value: 95,
     },
     {
-        name: "R",
-        value: 94,
+        name: "React.js",
+        value: 90,
     },
     {
-        name: "Go",
-        value: 93,
+        name: "Solid.js",
+        value: 90,
     },
-    {
-        name: "ROR",
-        value: 96,
-    },
+    // {
+    //     name: "C++",
+    //     value: 94,
+    // },
+    // {
+    //     name: "R",
+    //     value: 94,
+    // },
+    // {
+    //     name: "Go",
+    //     value: 20,
+    // },
+    // {
+    //     name: "ROR",
+    //     value: 96,
+    // },
     {
         name: "C#",
-        value: 90,
+        value: 50,
     },
     {
         name: "Laravel",
-        value: 98,
-    },
-    {
-        name: "Node",
         value: 90,
     },
     {
+        name: "Node",
+        value: 100,
+    },
+    {
         name: "Deno",
-        value: 85,
+        value: 100,
     },
     {
         name: "Flutter",
-        value: 96,
+        value: 75,
     },
     {
-        name: "Jquery",
+        name: "Android",
+        value: 90,
+    },
+    {
+        name: "DBA",
         value: 95,
+    },
+    {
+        name: "MySQL",
+        value: 100,
+    },
+    {
+        name: "MsSQL",
+        value: 100,
+    },
+    {
+        name: "PostgreSQL",
+        value: 90,
+    },
+    {
+        name: "Mongo",
+        value: 95,
+    },
+    {
+        name: "SurrealDB",
+        value: 95,
+    },
+    {
+        name: "Cassendra",
+        value: 75,
+    },
+    {
+        name: "Linux",
+        value: 85,
+    },
+    {
+        name: "MacOS",
+        value: 75,
+    },
+    {
+        name: "Windows",
+        value: 100,
     },
 ];
 
-const services = [{
-    title: "UI & UX Design",
-
-},
-{
-    title: "Mobile Apps",
-
-},
-{
-    title: "Web Application",
-
-},
-{
-    title: "Desktop / Computer Application",
-
-},
+const services = [
+    // {
+    //     title: "UI & UX Design",
+    // },
+    {
+        title: "Mobile Apps",
+    },
+    {
+        title: "Web Application",
+    },
+    {
+        title: "Desktop / Computer Application",
+    },
+    {
+        title: "Database Administration",
+    },
 
 ];
 
@@ -159,8 +234,8 @@ const dataportfolio = [
     },
     {
         img: deliverytimetrack,
-        desctiption: "Track my device provided fully track of your device.",
-        link: "http://www.deliverytimetracker.com/",
+        desctiption: "Waremax is a order management system with fleet tracking and insights.",
+        link: "http://www.waremax.net/",
         blank: "_blank"
     },
     {
@@ -169,21 +244,21 @@ const dataportfolio = [
         link: "http://www.alisoftclub.com/",
         blank: "_blank"
     },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
     // {
     //     img: "https://picsum.photos/400/700/?grayscale",
     //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
@@ -225,7 +300,9 @@ const dataportfolio = [
 const contactConfig = {
     YOUR_EMAIL: "ali.alfred@gmail.com",
     YOUR_FONE: "+92 321 4226617",
-    description: "You can contact us regarding any software. ",
+    YOUR_WHATSAPP: "+92 321 4226617",
+    YOUR_SKYPE: "ali_alfred",
+    description: "You can contact me regarding any software and service. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
